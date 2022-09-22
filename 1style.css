@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,500;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "poppins", sans-serif;  
+}
+body { 
+    overflow:hidden;
+    background-size: cover;
+    background-position: center;/*posição da imagem*/
+    height: 100vh;
+    width: 100%; /* cobrir todo o esapaço do corpo*/
+}
+
+
+header {
+    display:flex;
+    justify-content: space-around;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem; /*estava muito próximo do topo*/
+
+}
+ .cabeçalho-link {
+    cursor: pointer; 
+    gap: 3rem;
+    display: flex;
+    font-weight: 500;
+    
+    
+
+}
+.cabeçalho-link a {
+    color: rgb(243, 243, 243);
+    font-size: 20px;
+    border-radius: 15px;
+
+}
+
+.cabeçalho-link a:hover {
+
+    color: rgb(219, 13, 13);
+    transition: 0.4s all;
+    border-radius: 15px;
+    
+}
+
+button {
+
+    color: red;
+    border: solid 1px black;
+    padding: 5px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: brown;
+    color:beige;
+}
+
+.logo {
+    height: 40px;
+    background: transparent;
+    width: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    color: red;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.container-text {
+
+    padding: 250px 0 0 150px;   
+}
+.text h3 {
+    color: white;
+    font-size: 25px;
+}
+.text h1 {
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.text span {
+
+    color: red;
+}
+.text p {
+    color: white;
+    font-size: 15px;
+    font-weight: 300px;
+    margin-top: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    object-fit: cover;
+}

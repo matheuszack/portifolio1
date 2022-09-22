@@ -1,0 +1,44 @@
+form {
+    margin: auto;
+    width: 400;
+    padding: 1em;
+    border: 1rem solid;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {height: 20px;/*melhorar o espaçamento*/
+width: 100px;
+display: inline-block;
+text-align: right;
+color: rgb(255, 255, 255);
+font-size: 20px;
+}
+
+input textarea {
+    font: 1em;
+    width: 500px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body { /* centralizando as posições do corpo do conteúdo*/
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+
+}
+textarea {
+    vertical-align: top;
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem; /*estava muito próximo do topo*/
+
+}

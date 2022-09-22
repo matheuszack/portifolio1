@@ -1,0 +1,34 @@
+body { 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+h1 {margin: auto; /* alterando posição do titulo*/
+    padding: 0 150px 0 500px;
+    border-radius: 15px solid;
+    color: red; /* enfatizando cor do titulo*/
+    border-radius: 50px;
+    border-color: black;
+}
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    padding: 0 100px 0 0;
+    font-size: 20px;
+}
+h3 {
+    color: brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+    background-size: cover;
+    box-sizing: border-box;
+  text-decoration: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
